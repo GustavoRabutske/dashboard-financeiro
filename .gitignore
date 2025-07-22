@@ -1,0 +1,28 @@
+# Arquivo de segredos e variáveis de ambiente
+# ESSA LINHA É A MAIS IMPORTANTE PARA A SEGURANÇA!
+.env
+
+# Pastas de ambiente virtual do Python
+# Impede que pacotes instalados localmente sejam enviados para o GitHub
+venv/
+.venv/
+env/
+.env/
+
+# Arquivos de cache e compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de configuração de IDEs e editores populares
+# Evita enviar configurações pessoais do seu computador
+.vscode/
+.idea/
+
+# Pasta de configuração local do Streamlit
+.streamlit/
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
